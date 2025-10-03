@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputArea {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.addButton {
+  min-width: 48px;
+  height: 40px;
+}
+
+.importButton {
+  align-self: flex-start;
+}
+
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  min-height: 40px;
+}
+
+.chipWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 16px;
+}
+
+.chip {
+  /* Remove o fundo do chip para que o wrapper o controle */
+  background-color: transparent;
+}
