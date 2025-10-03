@@ -1,0 +1,33 @@
+/* src/app/analysis/[id]/analysis-detail.module.css */
+
+.container {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.resultCard {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.inputTextPaper {
+  background-color: #f9f9f9;
+  padding: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.preformattedText {
+  white-space: pre-wrap; /* Faz a quebra de linha no texto */
+  word-wrap: break-word; /* Quebra palavras longas */
+  font-family: inherit; /* Usa a mesma fonte do resto da página */
+  margin: 0;
+}
